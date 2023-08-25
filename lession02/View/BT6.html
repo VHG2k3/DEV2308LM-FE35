@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT6</title>
+</head>
+<body>
+    <form action="">
+        <caption><h3>Đăng kí thông tin người sử dụng</h3></caption>
+        <div>
+             <label for="name" style="margin-right: 25px" ><b>Tên đăng nhập</b></label>
+             <input type="text" name="name" id="name" style="margin: 1px 0px">
+        </div>
+        <div>
+            <label for="password" style="margin-right: 60px"><b>Mật khẩu</b></label>
+            <input type="password" name="password" id="password" style="margin: 1px 0px" >
+        </div>
+        <div>
+            <label for="checkpw" ><b>Nhập lại mật khẩu</b></label>
+            <input type="password" name="checkpw" id="checkpw"  size="40" style="margin: 1px 0px">
+        </div>
+        <div>
+            <label for="mail" style="margin-right: 88px"><b>Email</b></label>
+            <input type="email" name="mail" id="mail" style="margin: 1px 0px">
+        </div>
+        <div>
+            <label for="gender" style="margin-right: 60px"><b>Giới tính</b></label>
+            <input type="radio" name="gender" value="Nam" checked >Nam
+            <input type="radio" name="gender" value="Nữ">Nữ
+        </div>
+        <div>
+            <label for="age" style="margin-right: 70px"><b>Độ tuổi</b></label>
+            <input type="radio" name="age" value="Dưới 13" checked>Dưới 13 tuổi
+            <input type="radio" name="age" value="13 đến 17">Từ 13 đến 17 tuổi
+            <input type="radio" name="age" value="18 đến 25">Từ 18 đến 25 tuổi
+            <input type="radio" name="age" value="Trên 25">Trên 25 tuổi
+        </div>
+        <div>
+            <label for="hobies" style="margin-right: 8px"><b>Sở thích của bạn</b></label>
+            <input type="checkbox" name="hobies" value="Âm nhạc">Âm nhạc
+            <input type="checkbox" name="hobies" value="Game">Game
+            <input type="checkbox" name="hobies" value="Thể thao">Thể thao 
+            <input type="checkbox" name="hobies" value="Du lịch">Du lịch
+        </div>
+        <div>
+            <label for="job" style="margin-right: 40px"><b>Nghề nghiệp</b></label>
+            <select name="job" id="job">
+                <option value="" selected>Chọn ngành nghề</option>
+                <option value="DEV">DEV</option>
+                <option value="Tester">Tester</option>
+                <option value="BA">BA</option>
+            </select>
+        </div>
+        <div>
+            <label for="description" style="margin-right: 20px"><b>Mô tả bản thân</b></label>
+            <textarea name="description" id="description" cols="40" rows="5" style="margin: 5px 0px" placeholder="Mô tả về bản thân bạn...">
+            </textarea>
+        </div>
+        <div>
+            <input type="submit" name="DK" id="DK" value="Đăng ký" style="margin-left: 300px">
+            <input type="reset" name="reset" id="reset" value="Làm lại">
+        </div>
+
+    
+    
+    </form>
+</body>
+</html>
