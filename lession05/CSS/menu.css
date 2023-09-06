@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style: none;
+    color:aliceblue;
+}
+.main-menu{
+    background-color: rgba(0, 0, 0, 0.756);
+    display:flex;
+    width: 800px;
+    border-radius: 5px;
+    margin:10px;
+}
+li{
+    padding:15px 20px;
+    font-size: 20px;
+    border-right: 1px solid #cccccc30;
+}
+
+.main-menu li:last-child{
+    border:none;
+}
+.main-menu li:nth-child(2n+1){
+    border:none
+}
+li:hover a{
+    color:greenyellow;
+}
+li a:hover{
+    color:yellow;
+}
