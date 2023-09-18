@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color:black;
+    list-style: none;
+}
+html{
+    font-size:20px;
+}
+.d-flex{
+    display: flex;
+}
+.w-nav {
+    width:70%;
+    margin: 2rem auto; 
+}
+.img-logo img{
+    width:80%;
+}
+.img-logo{
+    margin-right: 11.5rem;
+}
+.menu li{
+    padding:0.8rem 1.5rem;
+}
+.menu li > a{
+    font-size:0.8rem;
+    font-weight: 400;
+}
+.w-section{
+    width:80%;
+    height:15%;
+    margin:auto;
+}
+.title{
+    position:absolute;
+    top:15%;
+    left:40%;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+
+
