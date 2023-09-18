@@ -34,6 +34,7 @@
     height: 160px;
     padding-top:30px;
     display: none;
+    opacity:1;
 }
 .menu-cap-2 .option2 {
     text-align: center;
@@ -46,8 +47,12 @@
 .menu-cap-2 .option2 a{
     color:rgba(128, 128, 128, 0.655);
 }
-
+ @keyframes aniCurnon {
+    from {opacity: 0;}
+    to {opacity: 1;}
+ }
 .option1:hover .menu-cap-2{
+    animation: aniCurnon 0.5s;
     display: block;
 }
 .menu-nu{
@@ -88,7 +93,8 @@
     display:flex;
     top:0%;
     left:100%;
-    margin-left: 150px;
+    width: 800px;
+    padding-left: 150px;
     margin-top: 15px;
     display: none;
 }
@@ -130,6 +136,9 @@ section{
 .product-img img{
     width:250px;
 }
+html{
+    font-size:10px;
+}
 .product-header .sale{
     position:absolute;
     background-color: #FF3333;
@@ -137,7 +146,15 @@ section{
     padding: 8px;
     border-radius: 12px;
     font-weight: 600;
-    margin:10px;
+    top:8%;
+    left: 5%;
+    width:3rem;
+    height: 2rem;
+}
+@media screen and (max-width:1000){
+    html{
+        font-size:30px;
+    }
 }
 .product{
     width:250px;
@@ -156,8 +173,14 @@ section{
     position:absolute;
     bottom:0;
     display:none;
+    opacity: 1;
+}
+@keyframes identifier {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 .product:hover .them{
+    animation: identifier 1s;
     display: block;
 }
 .product-header .them:hover{
@@ -186,4 +209,65 @@ section{
 .List-product{
     display:flex;
     justify-content: space-around;
+}
+
+.nam{
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: whitesmoke;
+    width:1519px;
+    height:350px;
+    border: 1px solid #ccc;
+    padding-top: 30px;
+    display: none;
+}
+.nam .option-nam{
+    padding:20px 150px;
+    font-size: 30px;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.555);
+    border-right: 1px solid #ccc;
+    width: 200px;
+    position:relative;
+}
+
+.option1:hover .nam{
+    display:block;
+}
+
+.nam .option-nam:hover{
+    color:black;
+}
+
+.dong-ho-nam{
+    position:absolute;
+    display: flex;
+    top:15%;
+    left: 100%;
+    width: 900px;
+    padding-left: 50px;
+    height: 300px;
+    flex-wrap: wrap;
+    display: none;
+}
+.Kashmir a img{
+    width:100px;
+    background-color: #cccccc53;
+    border-radius:50%;
+
+}
+.Kashmir a{
+    font-size: 18px;
+    font-weight: 100;
+    color:rgba(0, 0, 0, 0.785)
+}
+.Kashmir{
+    width:150px;
+    height: 150px;
+    text-align: center;
+    margin-right: 10px;
+}
+.nam .option-nam:hover .dong-ho-nam{
+    display: flex;
 }
