@@ -16,16 +16,16 @@ html{
     margin: 2rem auto; 
 }
 .img-logo img{
-    width:80%;
+    width:100%;
 }
 .img-logo{
-    margin-right: 11.5rem;
+    margin-right: 13rem;
 }
 .menu li{
-    padding:0.8rem 1.5rem;
+    padding:0.8rem 3rem;
 }
 .menu li > a{
-    font-size:0.8rem;
+    font-size:1rem;
     font-weight: 400;
 }
 .w-section{
@@ -40,6 +40,25 @@ html{
     font-weight: 550;
     font-size: 1.2rem;
 }
+.w-100{
+    width:100%;
+}
+footer{
+    position: relative;
+}
+.footer div p{
+    font-size: 0.8rem;;
+}
+.footer div{
+    margin:0.5rem 5rem;
+}
+.footer{
+    position:absolute;
+    width:60%;
+    top:10%;
+    left:15%;
+}
+
 
 
 

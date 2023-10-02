@@ -138,18 +138,3 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left:1rem;
 }
-footer{
-    position: relative;
-}
-.footer div p{
-    font-size: 0.8rem;;
-}
-.footer div{
-    margin:0 2rem;
-}
-.footer{
-    position:absolute;
-    width:60%;
-    top:10%;
-    left:15%;
-}

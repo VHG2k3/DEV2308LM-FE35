@@ -1,0 +1,36 @@
+.banner{
+    position: relative;
+}
+.banner > span{
+    position: absolute;
+    top:40%;
+    left:22%;
+    font-size: 1.8rem;
+    color:#8cb515;
+}
+.banner >p{
+    position: absolute;
+    top:45%;
+    left:22%;
+    font-size: 2.8rem;
+}
+.main-content{
+    position: relative;
+    height:72rem;
+}
+
+.content{
+    width:60%;
+    position: absolute;
+    top:5%;
+    left:20%;
+}
+.content h2{
+    text-align: center;
+}
+.content p{
+    margin-top:2rem;
+}
+.content img{
+    margin-top: 2rem;
+}

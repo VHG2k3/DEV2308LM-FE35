@@ -1,0 +1,30 @@
+.main-frame{
+    position: relative;
+}
+.register{
+    position: absolute;
+    width:25rem;
+    height: 30rem;
+    font-size: 1.5rem;
+    top:20%;
+    left:55%;
+}
+.text{
+   width:22rem;
+   height: 2.5rem;
+   margin-top: 1rem;
+   border: 3px solid #8cb515;
+   font-size: 0.9rem;
+   font-weight: 200;
+   padding-left:1rem;
+}
+
+.submit{
+    width:6rem;
+    height: 3rem;
+    margin-top:1rem;
+    font-size: 1.2rem;
+    color:white;
+    background-color: #8cb515;
+    border:none;
+}

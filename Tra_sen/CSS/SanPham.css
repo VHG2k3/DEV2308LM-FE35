@@ -1,0 +1,78 @@
+.banner{
+    position: relative;
+}
+.banner span{
+    position: absolute;
+    top:40%;
+    left:40%;
+    font-size: 3rem;
+}
+.main{
+    width: 80%;
+    height: 122rem;
+    margin: 1rem 9rem;
+    position: relative;
+}
+
+.main-header span{
+    color:#ccc;
+}
+.main-header p{
+    font-size: 2.8rem;
+    padding:1rem 0rem;
+}
+hr{
+    color:rgba(169, 169, 169, 0.719);
+    margin-bottom: 1rem;
+}
+select{
+    margin-left: 55rem;
+    width: 10rem;
+    font-size: 1rem;
+    color:gray;
+}
+.filter-right{
+    width:15%;
+}
+.filter-right  p{
+   padding:1.5rem 0;
+   font-size: 1.5rem;
+}
+.checkbox{
+  color:#ccc;
+}
+.list-product{
+    position:absolute;
+    top:6%;
+    left:20%;
+    width:80%;
+}
+table{
+    width:100%;
+}
+td > img{
+    width:100%;
+}
+td{
+    text-align: center;
+}
+td > .gia{
+    font-size: 1.2rem;
+
+}
+td > .klg{
+    margin-left:1rem;
+    color:gray;
+}
+.next{
+    position:absolute;
+    top:96%;
+    left:55%
+
+}
+.next button{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.8rem;
+    border: 1px solid gray;
+}

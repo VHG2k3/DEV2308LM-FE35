@@ -1,0 +1,30 @@
+section{
+    position: relative;
+}
+.height{
+    height: 2260px;
+}
+.news{
+    position: absolute;
+    top:0;
+    left:8%;
+    width:80%;
+}
+.news-title{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.content{
+    width:80%;
+}
+td p{
+    font-size: 1.4rem;
+    color: #8cb515;
+    margin:1rem 0;
+}
+.img-margin{
+    margin-top:-1rem;
+}
+
+
