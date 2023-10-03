@@ -1,0 +1,71 @@
+.main{
+    position: relative;
+}
+.main > span{
+    position: absolute;
+    top:1%;
+    left:10%;
+    color:#ccc;
+}
+.product{
+    position:absolute;
+    top:5%;
+    left:10%;
+    width:80%;
+}
+.product .button{
+    margin-left: 3rem;
+}
+.product .td3{
+    margin-left:3rem;
+    width:75%;
+}
+
+.td3 .margin-top{
+    margin-top: 1.5rem;
+}
+
+.img-cup-tea{
+    position: absolute;
+    width:43rem;
+    top:38%;
+    left:40%;
+}
+.phatra{
+    position: absolute;
+    top:40%;
+    left:16%;
+    width:20rem;
+}
+.content-phatra{
+    margin: 2rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.SanPhamLQ{
+    position: absolute;
+    top:70%;
+    left:8%;
+    width:85%;
+    text-align: center;
+}
+.SanPhamLQ table{
+    width:90%;
+    margin-left: 3rem;
+}
+.SanPhamLQ > p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.SanPhamLQ td >p {
+    margin:1rem 0;
+}
+.SanPhamLQ .gia{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.SanPhamLQ .klg{
+    font-size:1.2rem;
+    color:gray;
+}
