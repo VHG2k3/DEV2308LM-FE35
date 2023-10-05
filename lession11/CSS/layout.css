@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+ font-size:20px;
+}
+
+.w-22{
+    width:30%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-100{
+    width:100%
+}
+.mb-3{
+    margin-top: 1rem;
+}
+.w-25{
+    width:25%;
+}
+.mt-5{
+    margin-top:1.5rem;
+}
+.mr-2{
+    margin-right:2rem;
+}
+.b-bg{
+    border: 1px solid #ccc;
+    background-color: white;
+}
