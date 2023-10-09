@@ -210,32 +210,7 @@ function Check(){
 //         }
 //     }
       
-// }
-// function checkPrice(){
-//     debugger;
-//     $("#list-items").html("");
-//     var price = $('.price').val();
-   
-//     for(let i=0; i<listProduct.length;i++){
-//         if(listProduct[i].price==price){
-//             Print(i);
-//         }
-//     }
-      
-// }
-// function checkNamePrice(){
-//     debugger;
-//     $("#list-items").html("");
-//     var name = $('.name').val();
-//     var price = $('.price').val();
-   
-//     for(let i=0; i<listProduct.length;i++){
-//         if(listProduct[i].name==name&&listProduct[i].price==price){
-//             Print(i);
-//         }
-//     }
-      
-// }
+
 
 
 
