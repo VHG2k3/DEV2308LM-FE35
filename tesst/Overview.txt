@@ -1,0 +1,61 @@
+-- FULLSTACK: Web2 -> Web3 (3-5, tichs hợp blockchain)
+:-------  PHP, Laravel 
+:------- java spring boot 
+:------- netcore, web api
+--------------------------------------
+-- FrontEnd (ReactJS)
+--I. FrontEnd: (10-12b)
+1. Web, HTML5 (3 buổi)
+	- Các thẻ cơ bản trong html5 
+	- Table / form 
+	- Các thẻ bố cục nội dung
+2. CSS3: (3b)
+	- cú pháp
+	- các bộ chọn 
+	- quy tắc
+	- tính năng mới trong css3
+3. Ngôn ngữ lập trình kịch bản javascript (3b)
+	- Ngôn ngữ lập trình
+		+ Cú pháp 
+		+ Biến, hằng, kiểu dữ liệu, toán từ,4. 
+			toán hạng, biểu thức, câu lệnh, khối lệnh ...
+		+ I/O:
+		+ Các cấu trúc điều khiển: (3 loại)
+			++ lựa chọn / rẽ nhánh
+			++ Lặp 
+			++ Lệnh nhảy 
+				break; continue; goto; return; ...
+		+ mảng / xâu
+		+ function
+	- OOP in js
+	- DOM
+4. Thư viện Jquery (1b)
+	-> js 
+5. Framwork Bootstrap  (1b)
+6. Cắt / ghép giao diện (1b) 
+	.psd; .ai; .xd ; figma => .html 
+7. Hoàn thiện mock project (2 tuần, --> 4 tuần) 
+==> Hoàn thiện (Mock project 1) 
+	website (5 -7 trang html) 
+	
+=========================Tài nguyên học tập:
+- slides: (đọc slides trước mỗi buổi học)
+- Labguide: (hoàn thiện đầy đủ -> Nộp lại trên classroom)
+- Books: 
+------> Hết css: => share thư mục (Du_an_FE)
+========================= Công cụ triển khai:
+1. editor: 
+	- Visual code 2019 (pk: emmet)
+	- Sublime text / 
+2. github:
+	+ tạo tài khoản github 
+	+ sử dụng (push code hàng ngày)
+3. PP học tập 
+	- Đọc slides trước mỗi buổi học 
+	- Dành ít nhất mỗi ngày 2h làm việc
+
+	
+	
+
+	
+	
