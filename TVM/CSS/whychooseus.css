@@ -3,13 +3,7 @@
     font-weight: bold;
     padding-right: 50rem;
 }
-.fs-2b{
-    font-size:2rem;
-    font-weight: bold;
-}
-.fs-12{
-    font-size: 1.2rem;
-}
+
 .content-overview p{
     font-size: 1.2rem;
     padding-right: 50rem;
@@ -21,25 +15,11 @@
 .color_text{
     color:#261a4e;
 }
-.fs-24b{
-    font-size: 2.4rem;
-    font-weight: bold;
-}
-.fs-12b{
-    font-size: 1.2rem;
-    font-weight: bold;
-}
+
 .mt-6{
     margin-top: 6rem;
 }
-.fs-18b{
-    font-size: 1.8rem;
-    font-weight: bold; 
-}
-.fs-13{
-    font-size: 1.3rem;
-    font-weight: bold;
-}
+
 .content-business{
     height: 370px;
 }

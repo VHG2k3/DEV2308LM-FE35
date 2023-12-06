@@ -4,6 +4,7 @@
     text-decoration: none;
     color:white;
     font-family: 'Sarabun', sans-serif;
+    
 }
 
     
@@ -127,6 +128,9 @@
     .nav-link{
         color: #261a4e!important;
     }
+    .nav-link:hover{
+        color:#c5ad3d!important;
+    }
 }
 .logo{
     width:8rem;
@@ -139,7 +143,7 @@
     padding-top:3rem;
 }
 .nav-link-language{
-    color:#c5ad3d;
+    color: #c5ad3d!important;
     text-decoration: underline;
 }
 .color-nav{
@@ -159,4 +163,59 @@
 .logo-social{
     top:23%;
     left:25%;
+}
+.fs-2b{
+    font-size:2rem;
+    font-weight: bold;
+}
+.fs-12{
+    font-size: 1.2rem;
+}
+.fs-24b{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.fs-12b{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.fs-18{
+    font-size: 1.8rem;
+}
+.fs-18b{
+    font-size: 1.8rem;
+    font-weight: bold; 
+}
+.fs-13{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.fs-14{
+    font-size:1.4rem;
+}
+.fs-14b{
+    font-size:1.4rem;
+    font-weight: bold;
+}
+.fs-16b{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.fs-15{
+    font-size: 1.5rem;
+    font-weight:bold ;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white!important;
+}
+header li>a:hover{
+    color:#c5ad3d!important;
+}
+header .language:hover{
+    color:#c5ad3d!important;
 }
